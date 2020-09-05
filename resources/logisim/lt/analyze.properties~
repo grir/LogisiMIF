@@ -2,37 +2,37 @@
 # gui/Analyzer.java
 #
 analyzerWindowTitle = Kombinacin\u0117 analiz\u0117
-inputsTab = Įvestis
-outputsTab = Išvestis
-tableTab = Lentelė
-expressionTab = Reiškinys
+inputsTab = \u012Evestis
+outputsTab = I\u0161vestis
+tableTab = Lentel\u0117
+expressionTab = Rei\u0161kinys
 minimizedTab = Minimizuoti
-inputsTabTip = Peržiūrėti ir redaguoti įvestinių kintamųjų rinkinį
-outputsTabTip = Peržiūrėti ir redaguoti išvestinių kintamųjų rinkinį
-tableTabTip = Peržiūrėti ir tvarkyti resingumo lentelę.
-expressionTabTip = Peržiūrėti ir tvarkyti resingumo lentelę išvestinius reiškinius
-minimizedTabTip = Peržiūrėti minimizuotus reiškinius, atitinkačius tesingumo lentelę
+inputsTabTip = Per\u017Ei\u016Br\u0117ti ir redaguoti \u012Fvestini\u0173 kintam\u0173j\u0173 rinkin\u012F
+outputsTabTip = Per\u017Ei\u016Br\u0117ti ir redaguoti i\u0161vestini\u0173 kintam\u0173j\u0173 rinkin\u012F
+tableTabTip = Per\u017Ei\u016Br\u0117ti ir tvarkyti resingumo lentel\u0119.
+expressionTabTip = Per\u017Ei\u016Br\u0117ti ir tvarkyti resingumo lentel\u0119 i\u0161vestinius rei\u0161kinius
+minimizedTabTip = Per\u017Ei\u016Br\u0117ti minimizuotus rei\u0161kinius, atitinka\u010Dius tesingumo lentel\u0119
 #
 # gui/BuildCircuitButton.java
 #
-buildCircuitButton = Build Circuit
-buildProjectLabel = Destination Project:
-buildNameLabel = Circuit Name:
-buildTwoInputsLabel = Use Two-Input Gates Only
-buildNandsLabel = Use NAND Gates Only
-buildDialogTitle = Build Circuit
-buildDialogErrorTitle = Could Not Build Circuit
-buildNeedProjectError = You must select a destination project.
-buildNeedCircuitError = You must specify a circuit name.
-buildConfirmReplaceMessage = Are you sure you want to replace the circuit %s?
-buildConfirmReplaceTitle = Confirm Replace
-replaceCircuitAction = Replace Circuit
+buildCircuitButton = Sukurti schem\u0105
+buildProjectLabel = Paskirties projektas:
+buildNameLabel = Schemos vardas:
+buildTwoInputsLabel = Naudoti tik dviej\u0173 \u012Fves\u010Di\u0173 elementus
+buildNandsLabel = Naudoti tik NAND elementus
+buildDialogTitle = Sukurti schem\u0105
+buildDialogErrorTitle = Nei\u0161\u0117jo sukurti schemos
+buildNeedProjectError = J\u016Bs turite nurodyti paskirties objekt\u0105
+buildNeedCircuitError = J\u016Bs turite nurodyti schemos vard\u0105
+buildConfirmReplaceMessage = J\u016Bs tikrai norite pakeisti schem\u0105 %s?
+buildConfirmReplaceTitle = Patvirtinti pakeitim\u0105
+replaceCircuitAction = Pakeisti schem\u0105
 #
 # gui/ExpressionEditorPanel.java
 #
-exprClearButton = Clear
-exprRevertButton = Revert
-exprEnterButton = Enter
+exprClearButton = Valyti
+exprRevertButton = Atšaukti
+exprEnterButton = Įvesti
 #
 # gui/ExpressionPanel.java
 #
@@ -40,15 +40,15 @@ expressionEmpty = (empty)
 #
 # gui/KarnaughMapPanel.java
 #
-karnaughNoOutputError = No output selected.
-karnaughTooManyInputsError = Too many inputs for table.
+karnaughNoOutputError = Nepažymėta jokia išvestis 
+karnaughTooManyInputsError = Per daug įvesčių
 #
 # gui/MinimizedTabPanel.java
 #
 minimizedFormat = Format:
-minimizedSumOfProducts = Sum of products
-minimizedProductOfSums = Product of sums
-minimizedSetButton = Set As Expression
+minimizedSumOfProducts = Sandaugų suma
+minimizedProductOfSums = Sumų sandauga
+minimizedSetButton = Nustatyti kaip reiškinį
 #
 # gui/OutputSelector.java
 #
@@ -61,35 +61,35 @@ tableNullHeader = (none)
 #
 # gui/TableTabClip.java
 #
-clipPasteErrorTitle = Paste Error
-clipPasteSupportedError = The clipboard contents cannot be pasted into the editor.
-clipPasteEndError = The clipboard goes beyond the end of the table.
-clipPasteSizeError = Paste region must be same size as clipboard.
+clipPasteErrorTitle = Įklijavimo klaida
+clipPasteSupportedError = Iškarpinės turinys negali būti įklijuotas į redaktorių
+clipPasteEndError = Įklijavimo turinys nesiderina su lentelę
+clipPasteSizeError = Įklijavimo sritis turi būti to paties dydžio kaip ir iškarpinės
 #
 # gui/VariableListPanel.java
 #
-variableRemoveButton = Remove
-variableMoveUpButton = Move Up
-variableMoveDownButton = Move Down
-variableAddButton = Add
-variableRenameButton = Rename
-variableStartError = Name must begin with a letter.
-variablePartError = Name cannot contain '%s'.
-variableDuplicateError = Name duplicates existing variable.
-variableMaximumError = (Reached maximum size of %s.)
+variableRemoveButton = Pašalinti
+variableMoveUpButton = Perkelti į viršų
+variableMoveDownButton = Perkelti į apačią
+variableAddButton = Pridėti
+variableRenameButton = Pervardinti
+variableStartError = Vardas turi prasidėti nuo raidės
+variablePartError = Vardas neturi turėti savyje '%s'.
+variableDuplicateError = Toks vardas jau yra
+variableMaximumError = (Jau turime maksimalųjį dydį %s.)
 #
 # model/Entry.java
 #
-busError = Conflicting output values in circuit.
-oscillateError = Circuit oscillates.
+busError = Išvesčių reikšmės nesderina
+oscillateError = Schema osciliuoja
 #
 # model/Parser.java
 #
-implicitAndOperator = (Implicit AND)
-invalidCharacterError = Unrecognized characters: %s
-missingLeftOperandError = Operator %s missing left operand.
-missingRightOperandError = Operator %s missing right operand.
-lparenMissingError = No matching opening parenthesis.
-rparenMissingError = No matching closing parenthesis.
-badVariableName = %s is not an input variable.
-unexpectedApostrophe = Unexpected apostrophe ("'")
+implicitAndOperator = (Neišreikštinis AND)
+invalidCharacterError = Neatpažintas simbolis: %s
+missingLeftOperandError = Operatorius %s reikalauja kairiojo  operando
+missingRightOperandError = Operatorius %s reikalauja dešiniojo  operando
+lparenMissingError = Atidarantys skliaustai nesiderina
+rparenMissingError = Uždarantys skliaustai nesiderina
+badVariableName = %s nėra įvesties kintamasis
+unexpectedApostrophe = Netikėtas apostrofas ("'")
